@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header>
+        <nav>
+            <ul class="up">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#contact">Контакти</a></li>
+                <li><a href="profie.html"><p>Профіль</p></li>
+            </ul>
+            <a href="register.html"><p>Вхід</p></a> 
+                <!-- Нужно (Повернутись на головну) засунуть в профіль щоб в профілю можна було повиртатись на головну. Кстати попробуй в header засунуть!! -->
+                <a  href="index.html" class="back-link">← Повернутися на головну</a> </a>
+                
+        </nav>
+    </header>
+
+        
+
+
+    <main>
+        <h2 class="HT">Про нашу компанію</h2>
+        <div class="logotape">
+            <p>Ласкаво просимо на наш веб-сайт! Ми - компанія, яка прагне надавати найкращі послуги нашим клієнтам.</p>
+            <p>Дізнайтеся більше про наші послуги та як ми можемо вам допомогти.</p>
+        </div>
+    </main>
+
+
+        <footer class="footer">
+                <p class="nam">&copy; 2024 Назва Компанії. Усі права захищені.</p>
+        </footer>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+<!-- Не забуть foot розместити з низу сторінки, зробити треба хочаб: Головна; Про нас; Накинуть задній фон -->
+
+
+
+<!-- ВЕСЬ КОД ЗАКИНЬ В GITHUB ЯКЩО ШО В БРАТА НОУТ ПОПРОСИШ) -->

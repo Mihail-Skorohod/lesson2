@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(images/6.avif); */
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+}
+
+.up{
+    text-align: left;
+}
+
+.up a {
+    right: 250px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    min-height: 300px;
+    background-image: url(images/6.avif);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.HT {
+    text-align: center;
+}
+
+.logotape {
+    padding: 24px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+
+
+}
+
+/* Animation */
+
+.nam {
+    display: block;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.loader {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.loader .dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #121212;
+}
+
+.loader .dot {
+    animation:
+        bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+    to {
+        translate: 0 -0.25rem;
+    }
+}
+
+.loader .dot:nth-child(2) {
+    animation-delay: 100ms;
+}
+
+.loader .dot:nth-child(3) {
+    animation-delay: 200ms;
+}
+
+
+.uk {
+    text-align: right;
+}
+
+span {
+    margin-top: auto;
+}

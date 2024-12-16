@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профіль користувача</title>
+    <link rel="stylesheet" href="profie.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Профіль користувача</h1>
+        <div class="profile-info">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" value="Іван Петренко" readonly>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" value="ivan.petrenko@example.com" readonly>
+            
+            <label for="age">Вік:</label>
+            <input type="number" id="age" value="30" readonly>
+            
+            <label for="city">Місто:</label>
+            <input type="text" id="city" value="Київ" readonly>
+            
+            <label for="profession">Професія:</label>
+            <input type="text" id="profession" value="Веб-розробник" readonly>
+        </div>
+        <button class="edit-button" onclick="enableEdit()">Редагувати</button>
+        <button class="save-button" onclick="saveChanges()">Зберегти</button>
+        <a href="index.html" class="back-link">Повернутися на головну</a>
+    </div>
+</body>
+</html>
